@@ -1,0 +1,41 @@
+{
+  "name": "rev2growapi",
+  "version": "1.0.0",
+  "description": "It is initial changes ",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified \" && exit 1 ",
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oshkumar008/rev2growapi.git"
+  },
+  "keywords": [
+    "rev2grow",
+    "Rev2Grow",
+    "Revamp",
+    "to",
+    "grow"
+  ],
+  "author": "Santosh singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oshkumar008/rev2growapi/issues"
+  },
+  "homepage": "https://github.com/oshkumar008/rev2growapi#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.11",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.7"
+  }
+}
