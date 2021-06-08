@@ -23,6 +23,6 @@ jobs:
       # - node/install-packages:
       #     pkg-manager: yarn 
       - run: npm install
-      - run: npm test
+      #- run: npm test
       
 
