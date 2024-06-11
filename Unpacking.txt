@@ -1,0 +1,8 @@
+import ctypes
+a='xx xx   ggggg'
+b='xx xx   ggggg'
+k,*m,j={20,30,10,50}
+n={*a,*b}
+c=[zip(range(400),range(10))]
+v=ctypes.c_long.from_address(id(b)).value
+print(n)
